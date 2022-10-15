@@ -1,0 +1,7 @@
+a = int(input("Введите число"))
+kvadrat = a**2
+kub = a**3
+rezx4 = a**4
+print("результат 1:", kvadrat)
+print("результат 2:", kub)
+print("результат 3:", rezx4)
