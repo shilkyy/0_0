@@ -1,0 +1,7 @@
+a = int(input("Первое число:"))
+b = int(input("Второе число:"))
+c = int(input("Третье число:"))
+if (a + b > c) and (a + c > b) and (b + c > a):
+  print("Треугольник существует")
+else:
+  print("Треугольника нет")
