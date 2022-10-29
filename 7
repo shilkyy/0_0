@@ -1,0 +1,12 @@
+n = [43242341, 4234234, 32423432, 21321312, 12321311]
+chet = []
+nechet = []
+k = len(n)
+for i in range(k):
+  chislo = n[i]
+  if chislo % 2 == 0:
+    chet.append(chislo)
+  elif chislo % 2 == 1:
+    nechet.append(chislo)
+print("Чётные числа:", chet)
+print("Нечётные числа:", nechet)
